@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@600&display=swap');
+
+.navbar{
+  z-index: 999;
+}
+body {
+  background: linear-gradient(to bottom, #f5d90b, #16ab74);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 100vh; 
+  background-color: #f0f0f0; 
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.sidebar-button {
+  margin-bottom: 10px;
+  width: 40px; /* Ajusta el ancho según tu necesidad */
+  height: 40px; /* Ajusta la altura según tu necesidad */
+  border-radius: 5px; /* Ajusta el radio del borde según tu necesidad */
+  margin-bottom: 10px; /* Ajusta el margen inferior según tu necesidad */
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  text-align: center;
+}
+main {
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+.box{
+  background-color: #f8f9fa;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.status-danger{
+  color: red;
+}
+.status-ok{
+  color: green;
+}

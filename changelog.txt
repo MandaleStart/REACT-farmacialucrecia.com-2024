@@ -1,0 +1,40 @@
+===============================================================================================================================================================
+v0.3
+API: Se migra a servicio de FIREBASE , API local queda obsoleta
+
+FIREBASE: Se agrega coleccion data que tiene doc departamentos con la lista de departamentos y sus ciudades 
+
+ADMIN:	Se quita el uso de fetch y axios 
+		Se agrega uso de FIREBASE y FIRESTORE
+		Se corrigen errores menores
+CLIENT: Se quita el uso de fetch y axios 
+		Se trabaja en modulo carrito 
+			Se Agrega opcion de envio y pagos en carrito
+			Se corrige estetica de carrito
+		Se agrega uso de FIREBASE y FIRESTORE
+		Se corrigen errores menores
+
+
+===============================================================================================================================================================
+v0.2.7-1
+API:Se corrige errores en productos precargados
+ADMIN: 	se trabaja sobre ProductMOD 
+		se crea modal de agregar editar y eliminar en ProductMod
+		se crea logica de agregar productos
+===============================================================================================================================================================
+v0.2.7 Se crea changelog
+API:	
+	Se modifica Run_API.bat para permitir elejir entre API con persistencia o sin ella
+	Se crea api con persistencia(datos quedaran guardados en los archivos)
+	Se corrige errores en productos precargadoss
+ADMIN:
+	se agrega "/login" y se conecta a API
+	se agrega ordenado de producto por columna en "/productos"
+	columna URL ahora muestra el enlace como FOTO o "sin Foto" en caso de no tenerla
+	se agrega botones de mostrar/ocultar en "/pedidos" para mostrar o ocultar pedidos con status "entregado", "en proceso" o "pendiente" y "cancelado
+	se agrega fondo blanco para h2 de pedidos y botones de mostrar/ocultar
+	  
+	
+
+CLIENT: sin cambios
+===============================================================================================================================================================
