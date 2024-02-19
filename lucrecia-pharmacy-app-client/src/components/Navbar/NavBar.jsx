@@ -1,4 +1,5 @@
 import Logo from './Logo/Logo';
+import './navbar.css'
 import SearchBar from './SearchBar/SearchBar';
 import Categories from './Categories/Categories';
 import UserControl from './UserControl/UserControl'
